@@ -31,33 +31,17 @@ Be prepared to demonstrate your understanding of this week's concepts by answeri
 1. Explain how to build stateful class components.
 
 Answer:
-
-There is code example:
-
-import React, {Component} from 'react'
-
-class Pigeons extends Component {
-  constructor() {
-    super()
-    this.state = {
-      pigeons: []
-    }
-  }
-  render() {
-    return (
-      <div>
-        <p>Look at all the pigeons spotted today!</p>
-        <ul>
-          {this.state.pigeons.map(pigeonURL => {
-            return <li><img src={pigeonURL} /></li>
-          })}
-        </ul>
-      </div>
-    )
-  }
-}
+There is code example: https://www.codegrepper.com/code-examples/actionscript/how+to+build+stateful+class+components
 
 2. Describe the different phases of the component lifecycle.
+
+Answer:
+A React Component can go through four stages of its life as follows:
+
+    1. Initialization: This is the stage where the component is constructed with the given Props and default state. This is done in the constructor of a Component Class.
+    2. Mounting: Mounting is the stage of rendering the JSX returned by the render method itself.
+    3. Updating: Updating is the stage when the state of a component is updated and the application is repainted.
+    4. Unmounting: As the name suggests Unmounting is the final step of the component lifecycle where the component is removed from the page.
 
 3. Demonstrate an understanding of class component lifecycle methods.
 
