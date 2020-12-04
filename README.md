@@ -73,7 +73,7 @@ Be prepared to demonstrate your understanding of this week's concepts by answeri
     * Create _name_.test.js file
     * React, React component and testing libraries
     * Write your's test code in _name_.test.js
-    * Use *npm test* for testing
+    * Use **npm test** for testing
 
 You are expected to be able to answer questions in these areas. Your responses contribute to your Sprint Challenge grade.
 
