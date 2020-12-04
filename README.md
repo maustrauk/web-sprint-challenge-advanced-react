@@ -43,35 +43,23 @@ A React Component can go through four stages of its life as follows:
 
 3. Demonstrate an understanding of class component lifecycle methods.
 
-    * Mounting
-
-    These methods are called in the following order when an instance of a component is being created and inserted into the DOM:
-
+    * Mounting: These methods are called in the following order when an instance of a component is being created and inserted into the DOM:
       * constructor()
       * static getDerivedStateFromProps()
       * render()
       * componentDidMount()
     
-    * Updating
-
-    An update can be caused by changes to props or state. These methods are called in the following order when a component is being re-rendered:
-
+    * Updating: An update can be caused by changes to props or state. These methods are called in the following order when a component is being re-rendered:
       * static getDerivedStateFromProps()
       * shouldComponentUpdate()
       * render()
       * getSnapshotBeforeUpdate()
       * componentDidUpdate()
 
-    * Unmounting
-
-    This method is called when a component is being removed from the DOM:
-
+    * Unmounting: This method is called when a component is being removed from the DOM:
       * componentWillUnmount()
     
-    * Error Handling
-
-    These methods are called when there is an error during rendering, in a lifecycle method, or in the constructor of any child component.
-
+    * Error Handling: These methods are called when there is an error during rendering, in a lifecycle method, or in the constructor of any child component.
       * static getDerivedStateFromError()
       * componentDidCatch()
 
