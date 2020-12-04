@@ -16,12 +16,16 @@ const testUser = {
 };
 
 test("form header renders", () => {
+    //checking for proper rendering form
     render(<CheckoutForm />);
+    //checking for header existense
     screen.getByText("Checkout Form");
 });
 
 test("form shows success message on submit with form details", () => {
+    //checking for proper rendering form
     render(<CheckoutForm />);
+    
     const firstName = screen.getByLabelText(/first name/i);
     const lastName = screen.getByLabelText(/last name/i);
     const address = screen.getByLabelText(/address/i);
