@@ -30,16 +30,16 @@ Be prepared to demonstrate your understanding of this week's concepts by answeri
 
 1. Explain how to build stateful class components.
 
-There is code example: https://www.codegrepper.com/code-examples/actionscript/how+to+build+stateful+class+components
+    There is code example: https://www.codegrepper.com/code-examples/actionscript/how+to+build+stateful+class+components
 
 2. Describe the different phases of the component lifecycle.
 
-A React Component can go through four stages of its life as follows:
+    A React Component can go through four stages of its life as follows:
 
-    1. Initialization: This is the stage where the component is constructed with the given Props and default state. This is done in the constructor of a Component Class.
-    2. Mounting: Mounting is the stage of rendering the JSX returned by the render method itself.
-    3. Updating: Updating is the stage when the state of a component is updated and the application is repainted.
-    4. Unmounting: As the name suggests Unmounting is the final step of the component lifecycle where the component is removed from the page.
+        1. Initialization: This is the stage where the component is constructed with the given Props and default state. This is done in the constructor of a Component Class.
+        2. Mounting: Mounting is the stage of rendering the JSX returned by the render method itself.
+        3. Updating: Updating is the stage when the state of a component is updated and the application is repainted.
+        4. Unmounting: As the name suggests Unmounting is the final step of the component lifecycle where the component is removed from the page.
 
 3. Demonstrate an understanding of class component lifecycle methods.
 
@@ -66,9 +66,14 @@ A React Component can go through four stages of its life as follows:
 
 4. Define stateful logic.
 
-_Stateful logic is any code that uses state_
+    _Stateful logic is any code that uses state_
 
 5. Describe how to test a React component with React Testing Library.
+
+    * Create _name_.test.js file
+    * React, React component and testing libraries
+    * Write your's test code in _name_.test.js
+    * Use *npm test* for testing
 
 You are expected to be able to answer questions in these areas. Your responses contribute to your Sprint Challenge grade.
 
