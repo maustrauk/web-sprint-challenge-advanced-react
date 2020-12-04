@@ -30,6 +30,33 @@ Be prepared to demonstrate your understanding of this week's concepts by answeri
 
 1. Explain how to build stateful class components.
 
+Answer:
+
+There is code example:
+
+import React, {Component} from 'react'
+
+class Pigeons extends Component {
+  constructor() {
+    super()
+    this.state = {
+      pigeons: []
+    }
+  }
+  render() {
+    return (
+      <div>
+        <p>Look at all the pigeons spotted today!</p>
+        <ul>
+          {this.state.pigeons.map(pigeonURL => {
+            return <li><img src={pigeonURL} /></li>
+          })}
+        </ul>
+      </div>
+    )
+  }
+}
+
 2. Describe the different phases of the component lifecycle.
 
 3. Demonstrate an understanding of class component lifecycle methods.
