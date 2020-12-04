@@ -30,12 +30,10 @@ Be prepared to demonstrate your understanding of this week's concepts by answeri
 
 1. Explain how to build stateful class components.
 
-Answer:
 There is code example: https://www.codegrepper.com/code-examples/actionscript/how+to+build+stateful+class+components
 
 2. Describe the different phases of the component lifecycle.
 
-Answer:
 A React Component can go through four stages of its life as follows:
 
     1. Initialization: This is the stage where the component is constructed with the given Props and default state. This is done in the constructor of a Component Class.
@@ -44,6 +42,36 @@ A React Component can go through four stages of its life as follows:
     4. Unmounting: As the name suggests Unmounting is the final step of the component lifecycle where the component is removed from the page.
 
 3. Demonstrate an understanding of class component lifecycle methods.
+
+Mounting
+These methods are called in the following order when an instance of a component is being created and inserted into the DOM:
+
+constructor()
+static getDerivedStateFromProps()
+render()
+componentDidMount()
+
+Updating
+An update can be caused by changes to props or state. These methods are called in the following order when a component is being re-rendered:
+
+static getDerivedStateFromProps()
+shouldComponentUpdate()
+render()
+getSnapshotBeforeUpdate()
+componentDidUpdate()
+
+Unmounting
+This method is called when a component is being removed from the DOM:
+
+componentWillUnmount()
+
+
+Error Handling
+These methods are called when there is an error during rendering, in a lifecycle method, or in the constructor of any child component.
+
+static getDerivedStateFromError()
+componentDidCatch()
+
 
 4. Define stateful logic.
 
